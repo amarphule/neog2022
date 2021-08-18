@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- /////////////////////// -->
+    <!-- Que1. Write a program to add 5 numbers. The value of numbers are num1=5, num2=13, num3=7, num4=21 and num5=48. -->
+    <h1>Que1. Add 5 numbers</h1>
+    <p>Sum of num1=5, num2=13, num3=7, num4=21, num5=48</p>
+    <p>is the : <span id="addition"></span></p>
+    <script src="addNumber.js"></script>
+    <!-- /////////////////////// -->
+    <hr />
+    <!-- /////////////////////// -->
+    <!-- Que2. Write a program to take a number input from user and determine whether the number is odd or even. -->
+    <h1>Que2. To check number is odd or even</h1>
+    <input type="number" id="number" />
+    <button onclick="check()">Check</button>
+    <p>Number <span id="insertedNumber"></span> is <span id="result"></span></p>
+    <script src="oddEven.js"></script>
+    <!-- /////////////////////// -->
+    <hr />
+    <!-- /////////////////////// -->
+    <!-- Que3. Write a program to find the maximum and minimum out of two given numbers. The numbers are num1=129 and num2=251. -->
+    <h1>Que3. find the maximum and minimum number</h1>
+    <p>The numbers are num1=129 and num2=251</p>
+    <p>
+      The given number num1=129 is <span id="number1"></span> and num2=251 is
+      <span id="number2"></span>
+    </p>
+    <script src="minMax.js"></script>
+    <!-- /////////////////////// -->
+    <hr />
+    <!-- /////////////////////// -->
+    <!-- Que4. Write a program to find the maximum out of three given numbers. The numbers are num1=8, num2=23 and num3=17. -->
+    <h1>Que4. find the maximum out of three given numbers</h1>
+    <p>The numbers are num1=8, num2=23 and num3=17.</p>
+    <p>The Maximum number is <span id="maxNumber"></span></p>
+    <script src="max.js"></script>
+    <!-- /////////////////////// -->
+    <hr />
+    <!-- /////////////////////// -->
+    <!-- Que5. Write a program to find the minimum out of three given numbers. The numbers are num1=35, num2=29 and num3=46. -->
+    <h1>Que5. find the minimum out of three given numbers</h1>
+    <p>The numbers are num1=35, num2=29 and num3=46.</p>
+    <p>The Min imum number is <span id="minNumber"></span></p>
+    <script src="min.js"></script>
+    <!-- /////////////////////// -->
+    <hr />
+    <!-- /////////////////////// -->
+    <!-- Que6. Write program to take a month as an input from the user and find out whether the month has 31 days or not. -->
+    <h1>Que6. find out whether the month has 31 days or not.</h1>
+    <label for="months"> Select Months :</label>
+    <select id="months">
+      <option value="">Choose month</option>
+      <option value="1">January</option>
+      <option value="2">February</option>
+      <option value="3">March</option>
+      <option value="4">April</option>
+      <option value="5">May</option>
+      <option value="6">June</option>
+      <option value="7">July</option>
+      <option value="8">August</option>
+      <option value="9">September</option>
+      <option value="10">October</option>
+      <option value="11">November</option>
+      <option value="12">December</option>
+    </select>
+    <button type="submit" onclick="checkDays()">checkDays</button>
+    <p id="days"></p>
+    <script src="month.js"></script>
+    <!-- /////////////////////// -->
+  </body>
+</html>
