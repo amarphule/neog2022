@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ////////////////////// -->
+    <!-- Que1. Fizzbuzz - Write a program to return an array from 1 to 100. But for every multiple of 3, replace the number with "Fizz", for every multiple of 5, replace the number with "Buzz" and for every multiples of 3 & 5, replace with "FizzBuzz".
+
+        Your output should look something like this 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17 ..... -->
+
+    <h1>
+      Que1. Write a program to return an array from 1 to 100. But for every
+      multiple of 3, replace the number with "Fizz", for every multiple of 5,
+      replace the number with "Buzz" and for every multiples of 3 & 5, replace
+      with "FizzBuzz".
+    </h1>
+    <p>To see answer check in inspect mode/ Developer mode</p>
+    <!-- <script src="fizzBuzz.js"></script> -->
+    <!-- ////////////////////// -->
+    <hr />
+    <!-- ////////////////////// -->
+    <!-- Que2. Print the following star pattern :-
+        *
+        * *
+        * * *
+        * * * *
+        * * * * * 
+    -->
+    <h1>Que2. Star pattern</h1>
+    <p id="starPattern"></p>
+    <script src="star.js"></script>
+    <!-- ////////////////////// -->
+    <hr />
+    <!-- ////////////////////// -->
+    <!-- Que3. Write a program to take a number input from user and print multiplication table 12 times for that number. -->
+    <h1>Que3. Print multiplication table 12 times for that number.</h1>
+    <label for="table">Multiplication 12 times</label>
+    <input
+      type="text"
+      id="multiplicationNumber"
+      onclick="cleardata()"
+      onfocus="this.value=''"
+    />
+    <button onclick="multiply()">Multiply 12 times</button>
+    <p id="printMul"></p>
+    <script src="multiply.js"></script>
+    <!-- ////////////////////// -->
+    <hr />
+    <!-- ////////////////////// -->
+    <!-- Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... -->
+    <h1>Que4. Program to return a Fibonacci series</h1>
+    <label for="fibonacci">Fibonacci series</label>
+    <input type="number" id="fibonacciNumber" onfocus="this.value=''" />
+    <button onclick="printFiboSeries()">Check</button>
+    <p id="fiboSeries"></p>
+    <script src="fibo.js"></script>
+    <!-- ////////////////////// -->
+    <hr />
+    <!-- ////////////////////// -->
+    <!-- Que5. Write a program to take an input from a user and find its Factorial. Example: Factorial of 5 is 120 -->
+    <h1>Que5. Take an input from a user and find its Factorial</h1>
+    <label for="factorial">Find Factorial of</label>
+    <input type="number" id="factorial" onfocus="this.value=''" />
+    <button onclick="printFactorial()">Factorial</button>
+    <p id="factorialNumber"></p>
+    <script src="facto.js"></script>
+    <!-- ////////////////////// -->
+    <hr />
+    <!-- ////////////////////// -->
+    <!-- Que6. Write a Program to take a number input from user and find if the number is Prime or not. -->
+    <h1>Que6. Find if the number is Prime or not.</h1>
+    <label for="prime">Enter Number</label>
+    <input type="number" id="prime" />
+    <button onclick="checkPrime()">Check PrimeNumber</button>
+    <p id="printPrime"></p>
+    <script src="prime.js"></script>
+    <!-- ////////////////////// -->
+    <hr />
+    <!-- ////////////////////// -->
+    <!-- Que7. Write a program to take a day as an input and determine whether it is a weekday or weekend. Example: Tuesday is weekday. -->
+    <h1>Que7. Determine whether it is a weekday or weekend.</h1>
+    <label for="day">Days</label>
+    <select name="day" id="day">
+      <option value="1">Monday</option>
+      <option value="2">Tuesday</option>
+      <option value="3">wednesday</option>
+      <option value="4">Thursday</option>
+      <option value="5">Friday</option>
+      <option value="6">Saturday</option>
+      <option value="7">Sunday</option>
+    </select>
+    <button onclick="checkDay()">Find</button>
+    <p id="printResult"></p>
+    <script src="day.js"></script>
+    <!-- ////////////////////// -->
+  </body>
+</html>
